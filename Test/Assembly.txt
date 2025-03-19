@@ -1,0 +1,9 @@
+ADDI $r0, $r1, 6
+ADDI $r0, $r7, 1
+SUB $r1, $r2, $r7
+MUL $r1, $r3, $r2
+SUB $r2, $r2, $r7
+MUL $r3, $r3, $r2
+BNE $r7, $r2, -6
+PRINT $r3
+HALT
