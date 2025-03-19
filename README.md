@@ -160,4 +160,15 @@ Program halted.
 
 ---
 
+#### Example Video:
+
+You can find the example assembly code for calculating the factorial in the repository:
+
+[Factorial.txt](../Test/Assembly.txt)
+
+This is a 16-bit processor with a max value of 65536. Since factorials grow quickly, the maximum you can calculate is 8! before the program crashes due to overflow.
+
+**Important Note:**
+The value of the first register (`R1`) determines the factorial calculation. For example, if `R1` is set to 5, the program will compute 5!. You can adjust this value in the assembly code to calculate different factorials, but keep in mind the limit mentioned above.
+
 
