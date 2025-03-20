@@ -25,9 +25,9 @@ public class Pulse {
     String type = null;
     int branchOffset = 0;
 
-    public Pulse() throws Exception {
+    public Pulse(String filepath) throws Exception {
         System.out.println("--------------------------");
-        File file = new File("/Users/amiinmohamud/IdeaProjects/2024Projects/src/Emulator/Test/Binary.txt");
+        File file = new File(filepath);
         Scanner scan = new Scanner(file);
         int index = 0;
         while (scan.hasNext()) {
