@@ -164,7 +164,7 @@ Program halted.
 
 You can find the example assembly code for calculating the factorial in the repository:
 
-[Factorial.txt](../Test/Assembly.txt)
+[Factorial.txt](https://github.com/moh2169407/pulse-16/blob/main/Test/Factorial.txt)
 
 This is a 16-bit processor with a max value of 65536. Since factorials grow quickly, the maximum you can calculate is 8! before the program crashes due to overflow.
 
